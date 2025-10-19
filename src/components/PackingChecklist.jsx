@@ -2,7 +2,9 @@ import React from 'react'
 
 function PackingChecklist() {
   return (
-    <div>PackingChecklist</div>
+    <main class="flex-grow container mx-auto px-4 py-8">
+      
+    </main>
   )
 }
 

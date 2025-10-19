@@ -1,10 +1,10 @@
 import React from 'react'
-import PlanTripForm from '../components/PlanTripForm'
+import Dashboard from '../components/Dashboard'
 
 
 function Home() {
-  return <PlanTripForm />
+  return <Dashboard />
   
 }
 
-export default Home
+export default Home;

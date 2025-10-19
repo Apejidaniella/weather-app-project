@@ -7,19 +7,23 @@ import Checklist from './pages/checklist'
 import PackingPlans from './pages/packing-plans'
 import Home from './pages/home'
 import Layout from './components/Layout'
+import PastTrips from './pages/past-trips'
+import NewTrip from './pages/new-trip'
 
 function App() {
 
   return (
     <BrowserRouter>
         <Routes>
-        <Route element={<Layout />}>
-        <Route path="/" element={<Home />} /> 
-        <Route path="/packing-plans" element={<PackingPlans />} /> 
-        <Route path="/checklist" element={<Checklist />} />  
-        </Route>
+          <Route element={<Layout />}>
+            <Route path="/" element={<Home />} /> 
+            <Route path="/past-trips" element={<PastTrips />} /> 
+            <Route path="/packing-plans" element={<PackingPlans />} /> 
+            <Route path="/checklist" element={<Checklist />} />  
+            <Route path="/new-trip" element={<NewTrip />} />  
+         </Route>
         </Routes>
-        </BrowserRouter>
+   </BrowserRouter>
   )
   
 }
